@@ -56,6 +56,31 @@ https://140pay.site/
 
 https://github.com/user-attachments/assets/1cc6c1f3-de4a-490b-8bb1-2ad939827166
 
+<h2>[결제 Flow]</h2>
+<img src="https://github.com/user-attachments/assets/2ccc9dac-9e52-4934-9ba1-cc43f03bf268" width="400px">
+
+- 가맹주가 결제할 금액을 입력하고 QR 생성 및 웹소켓 세션 객체 생성
+  - QR에 세션 객체의 아이디, 가맹점 코드, 결제할 금액 데이터를 담고 결제 대기
+  - 생성된 QR과 세션은 1분의 유효기간을 가지고 있음
+
+<br />
+  
+<img src="https://github.com/user-attachments/assets/fc4cade7-2ff5-4d40-8cd3-ccbd2e684155" width="500px">
+
+- 고객은 자신의 간편비밀번호를 입력하여 결제 토큰을 발급 받음
+  - 발급된 토큰은 Redis에 저장되고, 1분의 유효기간을 가짐
+  - QR을 인식할 스캐너 화면으로 전환됨
+ 
+<br />
+
+<img src="https://github.com/user-attachments/assets/468e0b43-9b0f-4b03-b7d7-79843d7d2087" width="500px" >
+
+- QR의 데이터를 읽고, 발급 받은 토큰과 함께 POST 요청을 보냄
+  - 토큰과 transactionId로 유저와 웹소켓 세션을 식별함
+  - 결제가 성공적으로 진행되면 토큰을 지우고, 세션을 종료함
+
+---
+
 - 고객의 보유증권/담보증권 보여주기
   
 https://github.com/user-attachments/assets/e47f79b8-bba2-43f5-abd5-3ae8ed71c833
