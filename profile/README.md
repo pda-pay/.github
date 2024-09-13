@@ -63,20 +63,38 @@ https://140pay.site/
 
 
 # 사용 기술
+
+
+## Infra
+![EC2](https://img.shields.io/badge/-AWS_EC2-000?&logo=amazonec2&logoColor=F90)
+![S3](https://img.shields.io/badge/-AWS_S3-000?&logo=amazons3&logoColor=#569A31)
+![RDS](https://img.shields.io/badge/-AWS_RDS-000?&logo=amazonrds&logoColor=#527FFF)
+![Github Action](https://img.shields.io/badge/-Github_Action-000?&logo=githubactions&logoColor=#2088FF)
+
+
+## FrontEnd
 ![TypeScript](https://img.shields.io/badge/-TypeScript-000?&logo=TypeScript)
 ![React](https://img.shields.io/badge/-React-000?&logo=React)
 ![tailwindcss](https://img.shields.io/badge/-tailwindcss-000?&logo=tailwindcss)
+![PWA](https://img.shields.io/badge/-pwa-000?&logo=pwa)
 
-![Node.js](https://img.shields.io/badge/-Node.js-000?&logo=node.js)
+
+
+## BackEnd
+![SpringBoot](https://img.shields.io/badge/-Spring_Boot-000?&logo=springboot&logoColor=#6DB33F)
+![SpringBoot](https://img.shields.io/badge/-Spring_Security-000?&logo=springsecurity&logoColor=#6DB33F)
+![ElasticCache](https://img.shields.io/badge/-AWS_Elastic_Cache-000?&logo=amazonelasticache&logoColor=#C925D1)
 ![MySQL](https://img.shields.io/badge/-MySQL-000?&logo=MySQL&logoColor=#4479A1)
-![AWS](https://img.shields.io/badge/-AWS-000?&logo=Amazon-AWS&logoColor=F90)
-![amazons3](https://img.shields.io/badge/-AmazonsS3-000?&logo=Amazon-S3&logoColor=F90)
-![nginx](https://img.shields.io/badge/-nginx-000?&logo=nginx&logoColor=#009639)
 
+
+## ETC
 ![Git](https://img.shields.io/badge/-Git-000?&logo=git)
 ![Figma](https://img.shields.io/badge/-Figma-000?&logo=Figma)
 ![Notion](https://img.shields.io/badge/-Notion-000?&logo=Notion)
 ![Slack](https://img.shields.io/badge/-Slack-000?&logo=Slack)
+
+
+
 
 
 # 아키텍처
