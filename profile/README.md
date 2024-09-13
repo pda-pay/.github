@@ -1,5 +1,7 @@
 # 140PAY
 증권 담보 간편 결제 서비스
+ <br />
+🥇신한투자증권 프로 디지털 아카데미 4기 최우수 수상
   
 ### 서비스링크
 https://140pay.site/
@@ -46,13 +48,24 @@ https://140pay.site/
 
 
 # 기능소개
+## 고객 클라이언트
+- 보유 주식 보여주기
+- 보유 주식 담보로 설정하기
+- 담보 주식 반대매매 우선순위 설정하기
+- 고객의 보유주식/담보주식 보여주기
+- QR 인식을 통한 결제하기
+- 결제, 상환, 반대매매 등 알림 보내기
+## 가맹점 클라이언트
+- 금액 입력을 통한 QR코드 생성하기
+## 어드민 클라이언트
+- 상환, 반대매매 등 발생 시 보여주기
+- 고객의 담보 비율 보여주기
 
 
 # 사용 기술
 ![TypeScript](https://img.shields.io/badge/-TypeScript-000?&logo=TypeScript)
 ![React](https://img.shields.io/badge/-React-000?&logo=React)
 ![tailwindcss](https://img.shields.io/badge/-tailwindcss-000?&logo=tailwindcss)
-![Next.js](https://img.shields.io/badge/-Next.js-000?&logo=Next.js)
 
 ![Node.js](https://img.shields.io/badge/-Node.js-000?&logo=node.js)
 ![MySQL](https://img.shields.io/badge/-MySQL-000?&logo=MySQL&logoColor=#4479A1)
@@ -67,5 +80,7 @@ https://140pay.site/
 
 
 # 아키텍처
+
+# UIUX
 
 
